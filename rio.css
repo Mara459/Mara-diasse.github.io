@@ -1,0 +1,66 @@
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/fond33.jpg);
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/rio-de-janeiro3.jpg);
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main{
+    width: 100%;
+    background-color:#0005;
+    color: black;
+}
+.menu{
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.main ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left:300px;
+}
+.main .menu .menu_i{
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+}
+.main .menu .menu_i a{
+    padding:8px 18px;
+    text-decoration:none;
+    color:white;
+    display: block;
+    font-family: Palatino, URW Palladio L,serif;
+    font-size: 16px;
+}
+.menu_i:hover{
+     background-color:#232527;
+     transform: skewX(20deg);
+     animation-direction: alternate;
+     animation:skew 1s infinite;
+}
+.lgo2{
+    height: 48px;
+    float: left;
+    margin: 5px 20px;
+}
+p {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 40px;
+    font-family: Palatino, URW Palladio L,serif;
+    font-weight: 200;
+    color: beige;
+}
+h1{
+    color: chartreuse;
+}
+h2{
+    color: coral;
+}
+    #acc{
+        background-color: wheat;
+    }
